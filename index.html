@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Neolog 生成器</title>
+    <link rel="stylesheet" href="gen-style.css">
+    <script src="gen.js" defer async></script>
+  </head>
+  <body>
+    <div class="command-area">
+      <div class="ctrl-page-visibility"></div>
+      <div class="ctrl-init-date">
+        <button id="btnDecInitDate">➖</button>
+        <label>调整初始日期</label>
+        <button id="btnIncInitDate">➕</button>
+      </div>
+      <div class="ctrl-schedule">
+        <label>课程表：</label>
+        <textarea id="schedule-textarea" rows="7" cols="30"></textarea>
+        <button id="btnUptSchedule" onclick="UpdateSchedule();">应用</button>
+      </div>
+    </div>
+    <div class="iframe-wrapper">
+      <iframe src="static-4-a4-booklike.html" class="neolog-iframe"></iframe>
+    </div>
+  </body>
+</html>

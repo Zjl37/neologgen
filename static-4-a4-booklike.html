@@ -1,0 +1,392 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Neolog (Log 8)</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Source Han Serif CN', serif;
+      font-size: 3.6mm;
+    }
+
+    .a4_page {
+      margin: auto;
+      /* width: 21cm; */
+      /* height: 29.7cm; */
+      height: 28.5cm;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      /* page-break-after: always; */
+    }
+
+    .a5_page {
+      margin: auto;
+      /* width: 21cm; */
+      height: 14.8cm;
+      /* border: 1px dotted red; */
+    }
+
+    h1 {
+      margin: 0;
+      font-family: 'Source Han Sans CN', sans-serif;
+      font-size: 4mm;
+      display: none;
+    }
+
+    .page1 h1 {
+      display: initial;
+    }
+
+    .log_table {
+      border: 0.2mm solid black;
+      border-collapse: collapse;
+      font-size: 3mm;
+      line-height: 1.2em;
+    }
+
+    .log_table td {
+      text-indent: 0.5em;
+    }
+
+    .log_cell_title {
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .log_cell_top_date {
+      width: 2cm;
+    }
+
+    .todo_col {
+      width: 3.8cm;
+      border-top: 0.2mm solid black;
+    }
+
+    .todo_col>p,
+    .event_area>p {
+      margin: 0 0.5em;
+      font-size: 3.5mm;
+    }
+
+    .log_row_morning {
+      vertical-align: top;
+    }
+
+    .log_row_lesson {
+      vertical-align: top;
+    }
+
+    .log_row_underline {
+      border-bottom: 0.2mm solid black;
+    }
+
+    .type_area {
+      margin: 8mm auto;
+      padding: 0;
+      width: fit-content;
+    }
+
+    .side_by_side {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .learning_progress {
+      height: 5cm;
+      border-bottom: 0.2mm solid black;
+    }
+
+    .activity_row {
+      width: 14cm;
+    }
+
+    .event_area {
+      width: 3.8cm;
+      height: 3cm;
+      border-top: 0.2mm solid black;
+      font-size: 3.5mm;
+    }
+
+    .log_row_date,
+    .log_row_dit {
+      font-weight: 700;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="a4_page">
+    <div class="a5_page page4">
+      <div class="type_area">
+        <h1>Neolog</h1>
+        <span class="side_by_side">
+          <div>
+            <table class="log_table">
+              <tr class="log_row_date">
+                <td class="log_cell_top_date">9-4 一</td>
+                <td class="log_cell_top_date"></td>
+                <td class="log_cell_top_date"></td>
+                <td class="log_cell_top_date"></td>
+                <td class="log_cell_top_date"></td>
+                <td class="log_cell_top_date"></td>
+                <td class="log_cell_top_date"></td>
+              </tr>
+              <tr class="log_row_underline log_row_dit">
+                <td>0004</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson log_row_underline">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+            </table>
+            <div class="learning_progress"></div>
+            <div class="activity_row"></div>
+          </div>
+          <div>
+            <div class="event_area" contenteditable="true">
+              <p>Upcoming</p>
+            </div>
+            <div class="todo_col" contenteditable="true">
+              <p>Todo</p>
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div class="a5_page page1">
+      <div class="type_area">
+        <h1>Neolog</h1>
+        <span class="side_by_side">
+          <div>
+            <table class="log_table">
+              <tr class="log_row_date">
+                <td class="log_cell_top_date">9-4 一</td>
+                <td class="log_cell_top_date"></td>
+                <td class="log_cell_top_date"></td>
+                <td class="log_cell_top_date"></td>
+                <td class="log_cell_top_date"></td>
+                <td class="log_cell_top_date"></td>
+                <td class="log_cell_top_date"></td>
+              </tr>
+              <tr class="log_row_underline log_row_dit">
+                <td>0004</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson log_row_underline">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+            </table>
+            <div class="learning_progress"></div>
+            <div class="activity_row"></div>
+          </div>
+          <div>
+            <div class="event_area" contenteditable="true">
+              <p>Upcoming</p>
+            </div>
+            <div class="todo_col" contenteditable="true">
+              <p>Todo</p>
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="a4_page">
+    <div class="a5_page page2">
+      <div class="type_area">
+        <h1>Neolog</h1>
+        <span class="side_by_side">
+          <div>
+            <table class="log_table">
+              <tr class="log_row_date">
+                <td class="log_cell_top_date">9-4 一</td>
+                <td class="log_cell_top_date"></td>
+                <td class="log_cell_top_date"></td>
+                <td class="log_cell_top_date"></td>
+                <td class="log_cell_top_date"></td>
+                <td class="log_cell_top_date"></td>
+                <td class="log_cell_top_date"></td>
+              </tr>
+              <tr class="log_row_underline log_row_dit">
+                <td>0004</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson log_row_underline">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+            </table>
+            <div class="learning_progress"></div>
+            <div class="activity_row"></div>
+          </div>
+          <div>
+            <div class="event_area" contenteditable="true">
+              <p>Upcoming</p>
+            </div>
+            <div class="todo_col" contenteditable="true">
+              <p>Todo</p>
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div class="a5_page page3">
+      <div class="type_area">
+        <h1>Neolog</h1>
+        <span class="side_by_side">
+          <div>
+            <table class="log_table">
+              <tr class="log_row_date">
+                <td class="log_cell_top_date">9-4 一</td>
+                <td class="log_cell_top_date"></td>
+                <td class="log_cell_top_date"></td>
+                <td class="log_cell_top_date"></td>
+                <td class="log_cell_top_date"></td>
+                <td class="log_cell_top_date"></td>
+                <td class="log_cell_top_date"></td>
+              </tr>
+              <tr class="log_row_underline log_row_dit">
+                <td>0004</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson log_row_underline">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+              <tr class="log_row_lesson">
+                <td>X</td>
+              </tr>
+            </table>
+            <div class="learning_progress"></div>
+            <div class="activity_row"></div>
+          </div>
+          <div>
+            <div class="event_area" contenteditable="true">
+              <p>Upcoming</p>
+            </div>
+            <div class="todo_col" contenteditable="true">
+              <p>Todo</p>
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
